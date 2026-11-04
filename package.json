@@ -1,0 +1,16 @@
+{
+  "name": "eec-transport-pms",
+  "version": "1.0.0",
+  "description": "EEC Transport Sector Project Portfolio Planning & Monitoring Information System",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "backend:dev": "npm --prefix backend run dev",
+    "frontend:dev": "npm --prefix frontend run dev",
+    "backend:migrate": "npm --prefix backend run migrate",
+    "backend:seed": "npm --prefix backend run seed",
+    "db:reset": "npm --prefix backend run db:reset"
+  },
+  "keywords": ["eec", "transport", "project-monitoring", "portfolio-management"],
+  "author": "EEC Transport Team",
+  "license": "ISC"
+}
